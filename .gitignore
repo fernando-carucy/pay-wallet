@@ -1,0 +1,27 @@
+# --- Seguridad ---
+.env
+
+# --- Entorno Virtual ---
+# Es mejor que cada quien cree su venv en su propia PC
+venv/
+env/
+ENV/
+virtualenv/
+
+# --- Python ---
+# Archivos compilados que ensucian el código
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Django ---
+# No querrás subir tu base de datos de prueba local
+db.sqlite3
+
+# Archivos que suben los usuarios (media) y los estáticos recolectados
+/static/
+/media/
+
+# --- Otros ---
+.DS_Store (Si usas Mac)
+.vscode/ (Si usas VS Code y no quieres compartir tu config personal)
